@@ -73,10 +73,10 @@ print("\n");
   accepts list and list;
   if first argument is an empty list, function will return second argument and vise versa;
   
-  if first argument and second argument is not empty will build union set,
-  before making union the union function will call isMember function to check if 
-  element of list_2 is in the list_1 and if true will make recursive call of its self while true
-  if false will add element of the list_2 at the begining of the union set.
+  if first argument and second argument is not empty will build intersect set,
+  before making intersection the intersect function will call isMember function to check if 
+  element of list_2 is in the list_1 and if true will build intersection set;
+  if false will make recursive call of itself while to test another elements in the list
 
   will build new list, after function [list2Set] has to be used to build Set 
 *)
